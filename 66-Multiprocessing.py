@@ -13,7 +13,19 @@ def counter(num):
         count += 1
 
 def main():
-    pass
+# this way below with only is if dont have multiprocessing
+#    a = Process(target= counter, args=(1000,))
+#    a.start
+#    a.join
+    print(cpu_count())
+    a = Process(target=counter, args=(500,))
+    b = Process(target=counter, args=(500,))
+    a.start()
+    b.start()
+    a.join()
+    b.join()
+    print("Finished in:", time.perf_counter(), "Seconds")
 
-if __name__ = '__main__':
+# for some reason, my results are seconds since something? I got 103233 while it should be ~15 seconds.
+if __name__ == '__main__':
     main()

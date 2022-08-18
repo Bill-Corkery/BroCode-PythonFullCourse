@@ -1,4 +1,4 @@
-#Lesson 66: GUI Windows
+#Lesson 67: GUI Windows
 # https://www.youtube.com/watch?v=XKHEtdqhLK8
 
 from tkinter import *

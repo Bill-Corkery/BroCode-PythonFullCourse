@@ -1,4 +1,4 @@
-#Lesson 66: Labels
+#Lesson 68: Labels
 # https://www.youtube.com/watch?v=XKHEtdqhLK8
 # labels = an area widget that holds text and/or an image within a window
 

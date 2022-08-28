@@ -36,7 +36,7 @@ for index in range(len(food)):
                               compound='left',   #adds image & text left side
                               indicatoron=0, #eliminate circle indicators
                               width=375,
-                              command=order # this will set command of radio button to function.    
+                              command=order # this will set command of radio button to function.
                               )
     radiobutton.pack(anchor=W)
 

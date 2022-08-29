@@ -7,7 +7,7 @@ def submit():
     print("The temperature is: "+ str(scale.get())+ " degrees C")
 
 window = Tk()
-#below adds image to the scale. 
+#below adds image to the scale.
 #hotImage = PhotoImage(file = 'hot.png')
 #hotLabel = Label(image=hotImage)
 #hotLabel.pack()

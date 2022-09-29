@@ -2,7 +2,7 @@
 # https://www.youtube.com/watch?v=xiUTqnI6xk8
 
 from tkinter import *
-from Ball import *   #or Ball
+from 92Ball import *   #or Ball
 import time
 
 window = Tk()

@@ -15,3 +15,5 @@
 #   installed packages:         pip list
 #   check outdated packages:    pip list --outdated
 #   install a package:          pip install "package name"
+
+#chceked status of packages. 

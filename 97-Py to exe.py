@@ -12,3 +12,4 @@
 # clock.py name of your main python file
 # .exe is located in the dist folder.
 # can change image to ICO at icoconvert.com. move it to folder.
+

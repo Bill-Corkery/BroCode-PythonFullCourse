@@ -13,3 +13,4 @@
 # .exe is located in the dist folder.
 # can change image to ICO at icoconvert.com. move it to folder.
 
+# clock program succesfully made and is in dist file. 

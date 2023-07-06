@@ -6,14 +6,14 @@ from tkinter import *
 from tkinter import filedialog, colorchooser, font
 from tkinter.messagebox import *
 from tkinter.filedialog import *
+# color chooser, font dont seem to be working from tkinter
 
 def change_color():
     color = colorchooser.askcolor(title="pick a color")
-#    print(color)
     text_area.config(fg=color[1])
 
 def change_font(*args):
-    pass
+    text_area.config(font=(font_name.get(), size_box.get()))
 
 def new_file():
     pass
@@ -49,10 +49,12 @@ screen_height = window.winfo_screenheight()
 
 x = int((screen_width/2)-(window_width/2))
 y = int((screen_height/2)-(window_height/2))
+
 window.geometry("{}x{}+{}+{}".format(window_width, window_height, x, y))
 
 font_name = StringVar(window)
 font_name.set("Arial")
+
 font_size = StringVar(window)
 font_size.set("25")
 
